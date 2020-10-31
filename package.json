@@ -1,0 +1,32 @@
+{
+    "name": "npm",
+    "version": "1.0.0",
+    "description": "inicio npm curso construir un paquete para node",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/primo9293/npm.git"
+    },
+    "keywords": [
+        "js",
+        "node",
+        "npm",
+        "package"
+    ],
+    "author": "Carlos Macias <carlos1992@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/primo9293/npm/issues"
+    },
+    "homepage": "https://github.com/primo9293/npm#readme",
+    "dependencies": {
+        "moment": "^2.29.1"
+    },
+    "devDependencies": {
+        "date-fns": "^2.16.1",
+        "webpack": "^5.3.2"
+    }
+}
