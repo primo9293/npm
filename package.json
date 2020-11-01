@@ -4,7 +4,11 @@
     "description": "inicio npm curso construir un paquete para node",
     "main": "src/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '{*.js,src/**/*.{js,jsx}}",
+        "lint": "eslint src/ --fix",
+        "deploy": "npm run format && npm run build",
+        "hola": "node"
     },
     "repository": {
         "type": "git",
